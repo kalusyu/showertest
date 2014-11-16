@@ -50,50 +50,138 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" >
 
-                    <ImageView
-                        android:id="@+id/center"
+                    <com.example.test.ArcButton
+                        android:id="@+id/shenlan"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="90dip"
-                        android:layout_marginTop="85dip"
+                        android:layout_marginLeft="115dip"
+                        android:layout_marginTop="115dip"
+                        android:background="@drawable/shenlansedengguang_selected"
                         android:clickable="true"
-                        android:onClick="zhongjian"
-                        android:src="@drawable/yansexianshi_caolv_normal" />
+                        android:onClick="dingpeng" />
 
                     <com.example.test.ArcButton
-                        android:id="@+id/left"
+                        android:id="@+id/zise"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="40dip"
+                        android:layout_marginLeft="133dip"
+                        android:layout_marginTop="90dip"
+                        android:background="@drawable/zisedengguang_selected"
                         android:clickable="true"
-                        android:onClick="cepeng" />
+                        android:onClick="dingpeng" />
 
                     <com.example.test.ArcButton
-                        android:id="@+id/bottom"
+                        android:id="@+id/fenhong"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dip"
-                        android:layout_marginTop="175dip"
-                        android:clickable="true"
-                        android:onClick="shouchi" />
-
-                    <com.example.test.ArcButton
-                        android:id="@+id/right"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="175dip"
-                        android:layout_marginTop="40dip"
-                        android:clickable="true"
+                        android:layout_marginLeft="132dip"
+                        android:layout_marginTop="50dip"
                         android:background="@drawable/fenhongsedengguang_selected"
+                        android:clickable="true"
                         android:onClick="pubu" />
 
                     <com.example.test.ArcButton
-                        android:id="@+id/top"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/hongse"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dip"
+                        android:layout_marginLeft="116dip"
+                        android:layout_marginTop="24dip"
+                        android:background="@drawable/hongsedengguang_selected"
                         android:clickable="true"
                         android:onClick="dingpeng" />
+
+                    <com.example.test.ArcButton
+                        android:id="@+id/juhong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="95dip"
+                         android:layout_marginTop="13dip"
+                        android:background="@drawable/juhongsedengguang_selected"
+                        android:clickable="true"
+                        android:onClick="dingpeng" />
+                    
+                     <com.example.test.ArcButton
+                        android:id="@+id/chengse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="57dip"
+                        android:layout_marginTop="13dip"
+                        android:background="@drawable/chengsedengguang_selected"
+                        android:clickable="true"
+                        android:onClick="dingpeng" />
+                     
+                     <com.example.test.ArcButton
+                        android:id="@+id/tuhuang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dip"
+                        android:layout_marginTop="23dip"
+                        android:background="@drawable/tuhuanghuangsedengguang_selected"
+                        android:clickable="true"
+                        android:onClick="dingpeng" />
+                     
+                      <com.example.test.ArcButton
+                        android:id="@+id/huangse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dip"
+                        android:layout_marginTop="51dip"
+                        android:background="@drawable/huangsedengguang_selected"
+                        android:clickable="true"
+                        android:onClick="dingpeng" />
+                      
+                      
+                      <com.example.test.ArcButton
+                        android:id="@+id/caolvse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dip"
+                        android:layout_marginTop="90dip"
+                        android:background="@drawable/caolvsedengguang_selected"
+                        android:clickable="true"
+                        android:onClick="cepeng" />
+
+                  
+                    <com.example.test.ArcButton
+                        android:id="@+id/lvse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="28dip"
+                        android:layout_marginTop="113dip"
+                        android:background="@drawable/lvsedengguang_selected"
+                        android:clickable="true"
+                        android:onClick="dingpeng" />
+                    
+                     <com.example.test.ArcButton
+                         android:id="@+id/hulan"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="55dip"
+                         android:layout_marginTop="130dip"
+                         android:background="@drawable/hulansedengguang_selected"
+                         android:clickable="true"
+                         android:onClick="dingpeng" />
+
+                     <com.example.test.ArcButton
+                         android:id="@+id/gulan"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="95dip"
+                         android:layout_marginTop="130dip"
+                         android:background="@drawable/gulansedengguang_selected"
+                         android:clickable="true"
+                         android:onClick="shouchi" />
+
+                     <ImageView
+                         android:id="@+id/center"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="133px"
+                         android:layout_marginTop="128px"
+                         android:clickable="true"
+                         android:onClick="zhongjian"
+                         android:src="@drawable/yansexianshi_caolv_normal" />
+                    
                 </FrameLayout>
             </LinearLayout>
         </FrameLayout>
